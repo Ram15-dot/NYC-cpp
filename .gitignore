@@ -1,0 +1,33 @@
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.dll
+
+# Debug files
+*.pdb
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# CMake
+build/
+cmake-build-*/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
