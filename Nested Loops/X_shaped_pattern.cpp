@@ -20,7 +20,7 @@ void Solution::printXShape(int n)
             }
             else
             {
-                cout << " ";
+                cout << "-";
             }
         }
         cout << endl;
