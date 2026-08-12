@@ -19,10 +19,6 @@ This repository contains my C++ programming and Data Structures & Algorithms pra
 - Trees
 - Graphs
 - Dynamic Programming
-- CSES
-- Codeforces
-- LeetCode
-- HackerRank
 
 ## Language
 
