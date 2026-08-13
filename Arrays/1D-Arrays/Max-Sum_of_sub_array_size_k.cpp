@@ -9,22 +9,25 @@ int main()
     int k;
     cin >> k;
     vector<long long> arr;
-    int sum = 0, max = 0;
+    int sum, maxSum = 0;
+    // core logic
     for (int i = 0; i < n; i++)
     {
         int temp;
         cin >> temp;
         arr.push_back(temp);
     }
-
-    for (int i = 0; i < n; i++)
+    maxSum = arr[0];
+    for (int i = 0; i < n - k + 1; i++)
     {
-        for (int j = i; j < k; j++)
+        sum = 0;
+        for (int j = i; j < i + k; j++)
         {
-            cout << arr[j] << " ";
+            sum += arr[j];
         }
-        cout << endl;
-    }
 
+        maxSum = max(maxSum, sum);
+    }
+    cout << maxSum;
     return 0;
 }
